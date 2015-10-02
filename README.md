@@ -1,4 +1,4 @@
-# Columbia Academic Yik Yak (for now)
+# CU Agora
 
 # List of Developers
 - Sungwoo Bae

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:CU_Agora.xcodeproj">
+      location = "self:Agora.xcodeproj">
    </FileRef>
 </Workspace>
