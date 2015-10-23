@@ -9,7 +9,13 @@
 import UIKit
 
 class ThreadItemTableViewCell: UITableViewCell {
-
+    // MARK: Properties
+    
+    @IBOutlet weak var threadContent: UILabel!
+    @IBOutlet weak var voter: UIStepper!
+    @IBOutlet weak var voteValue: UILabel!
+    @IBOutlet weak var subject: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

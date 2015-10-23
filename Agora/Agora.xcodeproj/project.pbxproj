@@ -13,14 +13,18 @@
 		94A06D481BBF1AAD00947F80 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94A06D461BBF1AAD00947F80 /* LaunchScreen.xib */; };
 		94A06D541BBF1AAD00947F80 /* AgoraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A06D531BBF1AAD00947F80 /* AgoraTests.swift */; };
 		94A06D5E1BBF1CFA00947F80 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A06D5D1BBF1CFA00947F80 /* SignInViewController.swift */; };
-		94A06D601BBF1D1700947F80 /* SearchClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A06D5F1BBF1D1700947F80 /* SearchClassViewController.swift */; };
 		94A06D621BBF1D2C00947F80 /* NearbyClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A06D611BBF1D2C00947F80 /* NearbyClassViewController.swift */; };
 		94A06D641BBF1D3B00947F80 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A06D631BBF1D3B00947F80 /* MyPageViewController.swift */; };
 		94A06D661BBF1D5B00947F80 /* AgoraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A06D651BBF1D5B00947F80 /* AgoraViewController.swift */; };
-		94A06D681BBF1D7800947F80 /* GeneralThreadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A06D671BBF1D7800947F80 /* GeneralThreadViewController.swift */; };
 		94A06D6A1BBF1D8400947F80 /* LiveChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A06D691BBF1D8400947F80 /* LiveChatViewController.swift */; };
 		94A06D6C1BBF1D9200947F80 /* MoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A06D6B1BBF1D9200947F80 /* MoodViewController.swift */; };
 		94A06D6E1BBF1DB500947F80 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A06D6D1BBF1DB500947F80 /* NavigationController.swift */; };
+		A0FD57B51BC8531B00EA78E8 /* GeneralThreadTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FD57B41BC8531B00EA78E8 /* GeneralThreadTableViewController.swift */; };
+		A0FD57B71BDA9A3A00EA78E8 /* ThreadItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FD57B61BDA9A3A00EA78E8 /* ThreadItemTableViewCell.swift */; };
+		A0FD57B91BDAA61600EA78E8 /* Thread.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FD57B81BDAA61600EA78E8 /* Thread.swift */; };
+		A0FD57BB1BDAB94300EA78E8 /* ClassItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FD57BA1BDAB94300EA78E8 /* ClassItemTableViewCell.swift */; };
+		A0FD57BD1BDABBAB00EA78E8 /* NeabyClassTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FD57BC1BDABBAB00EA78E8 /* NeabyClassTableViewController.swift */; };
+		A0FD57C11BDAC3C700EA78E8 /* NearbyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FD57C01BDAC3C700EA78E8 /* NearbyClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,14 +48,18 @@
 		94A06D521BBF1AAD00947F80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94A06D531BBF1AAD00947F80 /* AgoraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgoraTests.swift; sourceTree = "<group>"; };
 		94A06D5D1BBF1CFA00947F80 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
-		94A06D5F1BBF1D1700947F80 /* SearchClassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchClassViewController.swift; sourceTree = "<group>"; };
 		94A06D611BBF1D2C00947F80 /* NearbyClassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearbyClassViewController.swift; sourceTree = "<group>"; };
 		94A06D631BBF1D3B00947F80 /* MyPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
 		94A06D651BBF1D5B00947F80 /* AgoraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgoraViewController.swift; sourceTree = "<group>"; };
-		94A06D671BBF1D7800947F80 /* GeneralThreadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralThreadViewController.swift; sourceTree = "<group>"; };
 		94A06D691BBF1D8400947F80 /* LiveChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveChatViewController.swift; sourceTree = "<group>"; };
 		94A06D6B1BBF1D9200947F80 /* MoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoodViewController.swift; sourceTree = "<group>"; };
 		94A06D6D1BBF1DB500947F80 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		A0FD57B41BC8531B00EA78E8 /* GeneralThreadTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralThreadTableViewController.swift; sourceTree = "<group>"; };
+		A0FD57B61BDA9A3A00EA78E8 /* ThreadItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadItemTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		A0FD57B81BDAA61600EA78E8 /* Thread.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Thread.swift; sourceTree = "<group>"; };
+		A0FD57BA1BDAB94300EA78E8 /* ClassItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClassItemTableViewCell.swift; path = Agora.xcodeproj/../ClassItemTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		A0FD57BC1BDABBAB00EA78E8 /* NeabyClassTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeabyClassTableViewController.swift; sourceTree = "<group>"; };
+		A0FD57C01BDAC3C700EA78E8 /* NearbyClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NearbyClass.swift; path = Agora.xcodeproj/../NearbyClass.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,16 +102,20 @@
 			isa = PBXGroup;
 			children = (
 				94A06D3B1BBF1AAD00947F80 /* AppDelegate.swift */,
+				A0FD57C01BDAC3C700EA78E8 /* NearbyClass.swift */,
 				94A06D6D1BBF1DB500947F80 /* NavigationController.swift */,
 				94A06D5D1BBF1CFA00947F80 /* SignInViewController.swift */,
-				94A06D5F1BBF1D1700947F80 /* SearchClassViewController.swift */,
+				A0FD57B41BC8531B00EA78E8 /* GeneralThreadTableViewController.swift */,
+				A0FD57BC1BDABBAB00EA78E8 /* NeabyClassTableViewController.swift */,
+				A0FD57BA1BDAB94300EA78E8 /* ClassItemTableViewCell.swift */,
 				94A06D611BBF1D2C00947F80 /* NearbyClassViewController.swift */,
+				A0FD57B61BDA9A3A00EA78E8 /* ThreadItemTableViewCell.swift */,
 				94A06D631BBF1D3B00947F80 /* MyPageViewController.swift */,
 				94A06D651BBF1D5B00947F80 /* AgoraViewController.swift */,
-				94A06D671BBF1D7800947F80 /* GeneralThreadViewController.swift */,
 				94A06D691BBF1D8400947F80 /* LiveChatViewController.swift */,
 				94A06D6B1BBF1D9200947F80 /* MoodViewController.swift */,
 				94A06D411BBF1AAD00947F80 /* Main.storyboard */,
+				A0FD57B81BDAA61600EA78E8 /* Thread.swift */,
 				94A06D441BBF1AAD00947F80 /* Images.xcassets */,
 				94A06D461BBF1AAD00947F80 /* LaunchScreen.xib */,
 				94A06D391BBF1AAD00947F80 /* Supporting Files */,
@@ -237,15 +249,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				94A06D641BBF1D3B00947F80 /* MyPageViewController.swift in Sources */,
+				A0FD57B91BDAA61600EA78E8 /* Thread.swift in Sources */,
 				94A06D661BBF1D5B00947F80 /* AgoraViewController.swift in Sources */,
-				94A06D681BBF1D7800947F80 /* GeneralThreadViewController.swift in Sources */,
+				A0FD57C11BDAC3C700EA78E8 /* NearbyClass.swift in Sources */,
 				94A06D621BBF1D2C00947F80 /* NearbyClassViewController.swift in Sources */,
 				94A06D5E1BBF1CFA00947F80 /* SignInViewController.swift in Sources */,
+				A0FD57BD1BDABBAB00EA78E8 /* NeabyClassTableViewController.swift in Sources */,
 				94A06D6C1BBF1D9200947F80 /* MoodViewController.swift in Sources */,
-				94A06D601BBF1D1700947F80 /* SearchClassViewController.swift in Sources */,
 				94A06D6E1BBF1DB500947F80 /* NavigationController.swift in Sources */,
 				94A06D6A1BBF1D8400947F80 /* LiveChatViewController.swift in Sources */,
 				94A06D3C1BBF1AAD00947F80 /* AppDelegate.swift in Sources */,
+				A0FD57B71BDA9A3A00EA78E8 /* ThreadItemTableViewCell.swift in Sources */,
+				A0FD57B51BC8531B00EA78E8 /* GeneralThreadTableViewController.swift in Sources */,
+				A0FD57BB1BDAB94300EA78E8 /* ClassItemTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +457,7 @@
 				94A06D591BBF1AAD00947F80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94A06D5A1BBF1AAD00947F80 /* Build configuration list for PBXNativeTarget "AgoraTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +466,7 @@
 				94A06D5C1BBF1AAD00947F80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

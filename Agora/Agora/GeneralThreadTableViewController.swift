@@ -9,7 +9,7 @@
 import UIKit
 
 class GeneralThreadTableViewController: UITableViewController {
-
+    //Mark
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -27,16 +27,22 @@ class GeneralThreadTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        // #warning Potentially incomplete method implementation.
+    override func numberOfSectionsInTableView(tableView: UITableView) -> Int
+    {
+        
         // Return the number of sections.
-        return 0
+        // Create right number of selection tabs for the entire class (5)
+        // Display the number of up/downvotes
+        // Use buttons for page back
+        // Help create other things to have page set up for next week
+        //
+        return 3
     }
 
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete method implementation.
+    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+    {
         // Return the number of rows in the section.
-        return 0
+        return 5
     }
 
     /*
