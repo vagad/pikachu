@@ -2,21 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:../NearbyClass.swift">
-   </FileRef>
-   <FileRef
-      location = "group:../Agora/NeabyClassTableViewController.swift">
-   </FileRef>
-   <FileRef
-      location = "group:../ClassItemTableViewCell.swift">
-   </FileRef>
-   <FileRef
-      location = "group:../ThreadItemTableViewCell.swift">
-   </FileRef>
-   <FileRef
-      location = "group:../Agora/GeneralThreadTableViewController.swift">
-   </FileRef>
-   <FileRef
       location = "self:Agora.xcodeproj">
    </FileRef>
 </Workspace>

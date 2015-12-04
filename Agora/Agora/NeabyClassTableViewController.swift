@@ -8,8 +8,30 @@
 
 import UIKit
 
-class NeabyClassTableViewController: UITableViewController {
+class NeabyClassTableViewController: PFQueryTableViewController {
 
+    // Initialise the PFQueryTable tableview
+    override init(style: UITableViewStyle, className: String!) {
+        super.init(style: style, className: className)
+    }
+    
+    required init(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        
+        // Configure the PFQueryTableView
+        self.parseClassName = "Object"
+        self.textKey = "instructor"
+        self.pullToRefreshEnabled = true
+        self.paginationEnabled = false
+    }
+    
+    // Define the query that will provide the data for the table view
+    override func queryForTable() -> PFQuery{
+        var query = PFQuery(className: "Object")
+        query.orderByAscending("instructor")
+        return query
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -33,10 +55,32 @@ class NeabyClassTableViewController: UITableViewController {
         return 0
     }
 
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete method implementation.
-        // Return the number of rows in the section.
-        return 0
+    
+    //override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath, object: PFObject?) -> PFTableViewCell {
+        
+        var cell = tableView.dequeueReusableCellWithIdentifier("CustomCell") as! CustomTableViewCell!
+        if cell == nil {
+            cell = CustomTableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: "CustomCell")
+        }
+        
+        // Extract values from the PFObject to display in the table cell
+        if let nameEnglish = object?["nameEnglish"] as? String {
+            cell.customNameEnglish.text = nameEnglish
+        }
+        if let capital = object?["capital"] as? String {
+            cell.customCapital.text = capital
+        }
+        
+        // Display flag image
+        var initialThumbnail = UIImage(named: "question")
+        cell.customFlag.image = initialThumbnail
+        if let thumbnail = object?["flag"] as? PFFile {
+            cell.customFlag.file = thumbnail
+            cell.customFlag.loadInBackground()
+        }
+        
+        return cell
     }
 
     /*

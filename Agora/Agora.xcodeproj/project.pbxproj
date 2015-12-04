@@ -19,12 +19,6 @@
 		94A06D6A1BBF1D8400947F80 /* LiveChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A06D691BBF1D8400947F80 /* LiveChatViewController.swift */; };
 		94A06D6C1BBF1D9200947F80 /* MoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A06D6B1BBF1D9200947F80 /* MoodViewController.swift */; };
 		94A06D6E1BBF1DB500947F80 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A06D6D1BBF1DB500947F80 /* NavigationController.swift */; };
-		A0FD57B51BC8531B00EA78E8 /* GeneralThreadTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FD57B41BC8531B00EA78E8 /* GeneralThreadTableViewController.swift */; };
-		A0FD57B71BDA9A3A00EA78E8 /* ThreadItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FD57B61BDA9A3A00EA78E8 /* ThreadItemTableViewCell.swift */; };
-		A0FD57B91BDAA61600EA78E8 /* Thread.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FD57B81BDAA61600EA78E8 /* Thread.swift */; };
-		A0FD57BB1BDAB94300EA78E8 /* ClassItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FD57BA1BDAB94300EA78E8 /* ClassItemTableViewCell.swift */; };
-		A0FD57BD1BDABBAB00EA78E8 /* NeabyClassTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FD57BC1BDABBAB00EA78E8 /* NeabyClassTableViewController.swift */; };
-		A0FD57C11BDAC3C700EA78E8 /* NearbyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FD57C01BDAC3C700EA78E8 /* NearbyClass.swift */; };
 		94EF3F131BC84BDF000DDD27 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94EF3F121BC84BDF000DDD27 /* AudioToolbox.framework */; };
 		94EF3F151BC84BEA000DDD27 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94EF3F141BC84BEA000DDD27 /* CFNetwork.framework */; };
 		94EF3F171BC84BF2000DDD27 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94EF3F161BC84BF2000DDD27 /* CoreGraphics.framework */; };
@@ -36,7 +30,15 @@
 		94EF3F231BC84C1D000DDD27 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 94EF3F221BC84C1D000DDD27 /* libz.dylib */; };
 		94EF3F251BC84C27000DDD27 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 94EF3F241BC84C27000DDD27 /* libsqlite3.dylib */; };
 		94EF3F2C1BC851BA000DDD27 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94EF3F2A1BC851BA000DDD27 /* Bolts.framework */; };
-		94EF3F2D1BC851BA000DDD27 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94EF3F2B1BC851BA000DDD27 /* Parse.framework */; };
+		A00C24871C121F89004241B2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00C24861C121F89004241B2 /* MobileCoreServices.framework */; };
+		A00C248F1C12200E004241B2 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00C248E1C12200E004241B2 /* Parse.framework */; };
+		A00C24931C122104004241B2 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00C24921C122104004241B2 /* ParseUI.framework */; };
+		A0FD57B51BC8531B00EA78E8 /* GeneralThreadTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FD57B41BC8531B00EA78E8 /* GeneralThreadTableViewController.swift */; };
+		A0FD57B71BDA9A3A00EA78E8 /* ThreadItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FD57B61BDA9A3A00EA78E8 /* ThreadItemTableViewCell.swift */; };
+		A0FD57B91BDAA61600EA78E8 /* Thread.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FD57B81BDAA61600EA78E8 /* Thread.swift */; };
+		A0FD57BB1BDAB94300EA78E8 /* ClassItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FD57BA1BDAB94300EA78E8 /* ClassItemTableViewCell.swift */; };
+		A0FD57BD1BDABBAB00EA78E8 /* NeabyClassTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FD57BC1BDABBAB00EA78E8 /* NeabyClassTableViewController.swift */; };
+		A0FD57C11BDAC3C700EA78E8 /* NearbyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FD57C01BDAC3C700EA78E8 /* NearbyClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,12 +68,6 @@
 		94A06D691BBF1D8400947F80 /* LiveChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveChatViewController.swift; sourceTree = "<group>"; };
 		94A06D6B1BBF1D9200947F80 /* MoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoodViewController.swift; sourceTree = "<group>"; };
 		94A06D6D1BBF1DB500947F80 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
-		A0FD57B41BC8531B00EA78E8 /* GeneralThreadTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralThreadTableViewController.swift; sourceTree = "<group>"; };
-		A0FD57B61BDA9A3A00EA78E8 /* ThreadItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadItemTableViewCell.swift; sourceTree = SOURCE_ROOT; };
-		A0FD57B81BDAA61600EA78E8 /* Thread.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Thread.swift; sourceTree = "<group>"; };
-		A0FD57BA1BDAB94300EA78E8 /* ClassItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClassItemTableViewCell.swift; path = Agora.xcodeproj/../ClassItemTableViewCell.swift; sourceTree = SOURCE_ROOT; };
-		A0FD57BC1BDABBAB00EA78E8 /* NeabyClassTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeabyClassTableViewController.swift; sourceTree = "<group>"; };
-		A0FD57C01BDAC3C700EA78E8 /* NearbyClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NearbyClass.swift; path = Agora.xcodeproj/../NearbyClass.swift; sourceTree = SOURCE_ROOT; };
 		94EF3F121BC84BDF000DDD27 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		94EF3F141BC84BEA000DDD27 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		94EF3F161BC84BF2000DDD27 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -83,7 +79,16 @@
 		94EF3F221BC84C1D000DDD27 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		94EF3F241BC84C27000DDD27 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		94EF3F2A1BC851BA000DDD27 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
-		94EF3F2B1BC851BA000DDD27 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		A00C24861C121F89004241B2 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A00C248E1C12200E004241B2 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		A00C24921C122104004241B2 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		A00C24941C122119004241B2 /* ParseTutorial-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ParseTutorial-Bridging-Header.h"; sourceTree = "<group>"; };
+		A0FD57B41BC8531B00EA78E8 /* GeneralThreadTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralThreadTableViewController.swift; sourceTree = "<group>"; };
+		A0FD57B61BDA9A3A00EA78E8 /* ThreadItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadItemTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		A0FD57B81BDAA61600EA78E8 /* Thread.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Thread.swift; sourceTree = "<group>"; };
+		A0FD57BA1BDAB94300EA78E8 /* ClassItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClassItemTableViewCell.swift; path = Agora.xcodeproj/../ClassItemTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		A0FD57BC1BDABBAB00EA78E8 /* NeabyClassTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeabyClassTableViewController.swift; sourceTree = "<group>"; };
+		A0FD57C01BDAC3C700EA78E8 /* NearbyClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NearbyClass.swift; path = Agora.xcodeproj/../NearbyClass.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,16 +97,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				94EF3F251BC84C27000DDD27 /* libsqlite3.dylib in Frameworks */,
+				A00C24871C121F89004241B2 /* MobileCoreServices.framework in Frameworks */,
+				A00C24931C122104004241B2 /* ParseUI.framework in Frameworks */,
 				94EF3F231BC84C1D000DDD27 /* libz.dylib in Frameworks */,
 				94EF3F211BC84C14000DDD27 /* SystemConfiguration.framework in Frameworks */,
 				94EF3F1F1BC84C0D000DDD27 /* StoreKit.framework in Frameworks */,
 				94EF3F1D1BC84C07000DDD27 /* Security.framework in Frameworks */,
+				A00C248F1C12200E004241B2 /* Parse.framework in Frameworks */,
 				94EF3F1B1BC84C01000DDD27 /* QuartzCore.framework in Frameworks */,
 				94EF3F191BC84BF9000DDD27 /* CoreLocation.framework in Frameworks */,
 				94EF3F171BC84BF2000DDD27 /* CoreGraphics.framework in Frameworks */,
 				94EF3F2C1BC851BA000DDD27 /* Bolts.framework in Frameworks */,
 				94EF3F151BC84BEA000DDD27 /* CFNetwork.framework in Frameworks */,
-				94EF3F2D1BC851BA000DDD27 /* Parse.framework in Frameworks */,
 				94EF3F131BC84BDF000DDD27 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,10 +147,10 @@
 			children = (
 				94A06D3B1BBF1AAD00947F80 /* AppDelegate.swift */,
 				A0FD57C01BDAC3C700EA78E8 /* NearbyClass.swift */,
+				A0FD57BC1BDABBAB00EA78E8 /* NeabyClassTableViewController.swift */,
 				94A06D6D1BBF1DB500947F80 /* NavigationController.swift */,
 				94A06D5D1BBF1CFA00947F80 /* SignInViewController.swift */,
 				A0FD57B41BC8531B00EA78E8 /* GeneralThreadTableViewController.swift */,
-				A0FD57BC1BDABBAB00EA78E8 /* NeabyClassTableViewController.swift */,
 				A0FD57BA1BDAB94300EA78E8 /* ClassItemTableViewCell.swift */,
 				94A06D611BBF1D2C00947F80 /* NearbyClassViewController.swift */,
 				A0FD57B61BDA9A3A00EA78E8 /* ThreadItemTableViewCell.swift */,
@@ -188,10 +195,13 @@
 		94EF3F111BC84BC1000DDD27 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A00C24941C122119004241B2 /* ParseTutorial-Bridging-Header.h */,
+				A00C24921C122104004241B2 /* ParseUI.framework */,
 				94EF3F2A1BC851BA000DDD27 /* Bolts.framework */,
-				94EF3F2B1BC851BA000DDD27 /* Parse.framework */,
 				94EF3F241BC84C27000DDD27 /* libsqlite3.dylib */,
+				A00C248E1C12200E004241B2 /* Parse.framework */,
 				94EF3F221BC84C1D000DDD27 /* libz.dylib */,
+				A00C24861C121F89004241B2 /* MobileCoreServices.framework */,
 				94EF3F201BC84C14000DDD27 /* SystemConfiguration.framework */,
 				94EF3F1E1BC84C0D000DDD27 /* StoreKit.framework */,
 				94EF3F1C1BC84C07000DDD27 /* Security.framework */,
@@ -447,10 +457,12 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"/Users/VamsiG/Downloads/Bizzi-Body-ParseTutorialPart2-Complete-Solution-master",
 				);
 				INFOPLIST_FILE = Agora/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ParseTutorial-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -461,10 +473,12 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"/Users/VamsiG/Downloads/Bizzi-Body-ParseTutorialPart2-Complete-Solution-master",
 				);
 				INFOPLIST_FILE = Agora/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ParseTutorial-Bridging-Header.h";
 			};
 			name = Release;
 		};
