@@ -8,23 +8,11 @@
 
 import UIKit
 
-class ClassItemTableViewCell: UITableViewCell {
-    //Mark: Properties
-    @IBOutlet weak var className: UILabel!
-    @IBOutlet weak var profName: UILabel!
-    @IBOutlet weak var buildingName: UILabel!
-    @IBOutlet weak var timeAndDay: UILabel!
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-        
+class ClassItemTableViewCell: PFTableViewCell {
     
-
-        // Configure the view for the selected state
-    }
-
+    @IBOutlet weak var newClassName: UILabel!
+    @IBOutlet weak var newProfname: UILabel!
+    @IBOutlet weak var newBuildingName: UILabel!
+    @IBOutlet weak var newTiming: UILabel!
 }
+

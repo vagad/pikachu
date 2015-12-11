@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="aHG-3I-kO8">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
@@ -19,7 +19,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xig-yA-IcO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-495" y="-728"/>
+            <point key="canvasLocation" x="-495" y="-727.99999999999989"/>
         </scene>
         <!--Sign In View Controller-->
         <scene sceneID="T71-6p-sOJ">
@@ -39,7 +39,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="boj-jY-gJh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="307" y="-728"/>
+            <point key="canvasLocation" x="307" y="-727.99999999999989"/>
         </scene>
         <!--General Thread Table View Controller-->
         <scene sceneID="uMX-A0-6S7">
@@ -105,15 +105,21 @@
             </objects>
             <point key="canvasLocation" x="1135" y="-830"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Neaby Class Table View Controller-->
         <scene sceneID="Won-Og-9Oc">
             <objects>
-                <tableViewController id="aHG-3I-kO8" sceneMemberID="viewController">
+                <tableViewController id="aHG-3I-kO8" customClass="NeabyClassTableViewController" customModule="Agora" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Ce9-3s-ekZ">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" text="" id="ThZ-Q9-MKY">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <animations/>
+                            <textInputTraits key="textInputTraits"/>
+                        </searchBar>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="90" id="elg-sx-8Rh" customClass="ClassItemTableViewCell" customModule="Agora" customModuleProvider="target">
                                 <autoresizingMask key="autoresizingMask"/>
@@ -155,6 +161,10 @@
                                 <connections>
                                     <outlet property="buildingName" destination="Dwa-Iq-vb6" id="wGW-FQ-c83"/>
                                     <outlet property="className" destination="6nf-rC-IAp" id="e6g-fX-vP3"/>
+                                    <outlet property="newBuildingName" destination="Dwa-Iq-vb6" id="WrF-CD-Xsb"/>
+                                    <outlet property="newClassName" destination="6nf-rC-IAp" id="P0e-LS-Pw0"/>
+                                    <outlet property="newProfname" destination="YeT-in-wm5" id="fTB-ar-7PV"/>
+                                    <outlet property="newTiming" destination="VvA-HZ-5ve" id="buR-UA-FYh"/>
                                     <outlet property="profName" destination="YeT-in-wm5" id="SqF-8B-Yhd"/>
                                     <outlet property="schoolType" destination="VvA-HZ-5ve" id="8PP-fs-qh0"/>
                                     <outlet property="timeAndDay" destination="VvA-HZ-5ve" id="K4u-Qi-dml"/>
@@ -166,10 +176,13 @@
                             <outlet property="delegate" destination="aHG-3I-kO8" id="YYX-vq-RrY"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="classSearchBar" destination="ThZ-Q9-MKY" id="xxm-DU-5YE"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lZd-hk-Al7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1884" y="-825"/>
+            <point key="canvasLocation" x="-1327" y="-44"/>
         </scene>
         <!--My Page View Controller-->
         <scene sceneID="ofX-qB-RcK">
@@ -206,7 +219,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v4S-Wo-Yhr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-485" y="358"/>
+            <point key="canvasLocation" x="-485.00000000000006" y="357.99999999999994"/>
         </scene>
         <!--Search Class View Controller-->
         <scene sceneID="ehe-6N-eXg">
@@ -318,7 +331,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O9h-Ti-akJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-473" y="1550"/>
+            <point key="canvasLocation" x="-473" y="1549.9999999999998"/>
         </scene>
         <!--Agora View Controller-->
         <scene sceneID="LHS-XN-SNj">
@@ -377,7 +390,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8fn-ZA-e8d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="291" y="1550"/>
+            <point key="canvasLocation" x="291" y="1549.9999999999998"/>
         </scene>
         <!--Item-->
         <scene sceneID="6UB-Ze-QyN">
@@ -415,7 +428,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DTt-HF-fgD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1075" y="1550"/>
+            <point key="canvasLocation" x="1075" y="1549.9999999999998"/>
         </scene>
     </scenes>
 </document>
